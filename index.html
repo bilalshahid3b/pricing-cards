@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PricePro - Simple Pricing Plans</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+            Price<span>Pro</span>
+        </a>
+
+        <nav id="navMenu">
+            <a href="#home" class="active">Home</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#features">Features</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#pricing" class="nav-btn">Get Started</a>
+
+        <button class="menu-btn" id="menuBtn">☰</button>
+
+    </div>
+</header>
+
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <span class="badge">
+            SIMPLE • FLEXIBLE • AFFORDABLE
+        </span>
+
+        <h1>
+            Plans that fit your
+            <span>business.</span>
+        </h1>
+
+        <p>
+            Choose the perfect plan for your needs.
+            Powerful features, flexible pricing and
+            everything you need to grow.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#pricing" class="primary-btn">
+                View Pricing
+            </a>
+
+            <a href="#features" class="secondary-btn">
+                Explore Features
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="pricing-section" id="pricing">
+
+    <div class="section-heading">
+
+        <span>PRICING</span>
+
+        <h2>
+            Choose the right plan for you
+        </h2>
+
+        <p>
+            Simple and flexible pricing designed to help you grow.
+        </p>
+
+    </div>
+
+
+    <div class="billing">
+
+        <span id="monthlyText" class="selected">
+            Monthly
+        </span>
+
+        <label class="switch">
+
+            <input type="checkbox" id="billingToggle">
+
+            <span class="slider"></span>
+
+        </label>
+
+        <span id="yearlyText">
+            Yearly
+        </span>
+
+        <small>
+            Save 20%
+        </small>
+
+    </div>
+
+
+    <div class="pricing-cards">
+
+
+        <div class="pricing-card">
+
+            <div class="plan-icon">🚀</div>
+
+            <h3>Starter</h3>
+
+            <p class="plan-description">
+                Perfect for individuals starting out.
+            </p>
+
+            <div class="price">
+
+                <span>$</span>
+
+                <strong
+                    class="price-number"
+                    data-monthly="9"
+                    data-yearly="7">
+                    9
+                </strong>
+
+                <small>/month</small>
+
+            </div>
+
+            <button class="plan-btn">
+                Get Started
+            </button>
+
+            <div class="card-line"></div>
+
+            <h4>What's included</h4>
+
+            <ul>
+                <li>✓ 5 Projects</li>
+                <li>✓ 10 GB Storage</li>
+                <li>✓ Basic Analytics</li>
+                <li>✓ Email Support</li>
+                <li class="disabled">× Advanced Reports</li>
+                <li class="disabled">× Priority Support</li>
+            </ul>
+
+        </div>
+
+
+        <div class="pricing-card popular">
+
+            <div class="popular-label">
+                MOST POPULAR
+            </div>
+
+            <div class="plan-icon">⭐</div>
+
+            <h3>Professional</h3>
+
+            <p class="plan-description">
+                Great for growing businesses and teams.
+            </p>
+
+            <div class="price">
+
+                <span>$</span>
+
+                <strong
+                    class="price-number"
+                    data-monthly="19"
+                    data-yearly="15">
+                    19
+                </strong>
+
+                <small>/month</small>
+
+            </div>
+
+            <button class="plan-btn featured-btn">
+                Start Free Trial
+            </button>
+
+            <div class="card-line"></div>
+
+            <h4>Everything in Starter, plus</h4>
+
+            <ul>
+                <li>✓ Unlimited Projects</li>
+                <li>✓ 100 GB Storage</li>
+                <li>✓ Advanced Analytics</li>
+                <li>✓ Priority Support</li>
+                <li>✓ Advanced Reports</li>
+                <li>✓ Team Collaboration</li>
+            </ul>
+
+        </div>
+
+
+        <div class="pricing-card">
+
+            <div class="plan-icon">💎</div>
+
+            <h3>Business</h3>
+
+            <p class="plan-description">
+                Powerful tools for larger teams.
+            </p>
+
+            <div class="price">
+
+                <span>$</span>
+
+                <strong
+                    class="price-number"
+                    data-monthly="39"
+                    data-yearly="31">
+                    39
+                </strong>
+
+                <small>/month</small>
+
+            </div>
+
+            <button class="plan-btn">
+                Get Started
+            </button>
+
+            <div class="card-line"></div>
+
+            <h4>Everything in Professional, plus</h4>
+
+            <ul>
+                <li>✓ Unlimited Storage</li>
+                <li>✓ Premium Analytics</li>
+                <li>✓ 24/7 Support</li>
+                <li>✓ Custom Reports</li>
+                <li>✓ Team Management</li>
+                <li>✓ Dedicated Manager</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="features-section" id="features">
+
+    <div class="section-heading">
+
+        <span>FEATURES</span>
+
+        <h2>
+            Everything you need to grow
+        </h2>
+
+        <p>
+            Powerful tools and features built to make your work easier.
+        </p>
+
+    </div>
+
+
+    <div class="features-grid">
+
+        <div class="feature-card">
+
+            <div class="feature-icon">⚡</div>
+
+            <h3>Fast & Reliable</h3>
+
+            <p>
+                Enjoy a fast and reliable experience with our powerful platform.
+            </p>
+
+        </div>
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">🔒</div>
+
+            <h3>Secure Platform</h3>
+
+            <p>
+                Your information is protected with modern security standards.
+            </p>
+
+        </div>
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">📊</div>
+
+            <h3>Advanced Analytics</h3>
+
+            <p>
+                Get useful insights and understand your business performance.
+            </p>
+
+        </div>
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">👥</div>
+
+            <h3>Team Collaboration</h3>
+
+            <p>
+                Work together with your team and manage projects easily.
+            </p>
+
+        </div>
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">☁️</div>
+
+            <h3>Cloud Storage</h3>
+
+            <p>
+                Keep your important files safe and accessible from anywhere.
+            </p>
+
+        </div>
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">💬</div>
+
+            <h3>24/7 Support</h3>
+
+            <p>
+                Our support team is ready to help whenever you need assistance.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="contact-section" id="contact">
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+
+            <span>CONTACT US</span>
+
+            <h2>
+                Have a question?
+                Let's talk.
+            </h2>
+
+            <p>
+                Have questions about our plans or features?
+                Send us a message and we'll get back to you.
+            </p>
+
+
+            <div class="contact-details">
+
+                <div>
+                    <strong>📧 Email</strong>
+
+                    <p>
+                        bilalshahid1972@gmail.com
+                    </p>
+                </div>
+
+
+                <div>
+                    <strong>📞 Phone</strong>
+
+                    <p>
+                        03217670290
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <form class="contact-form" id="contactForm">
+
+            <div class="form-group">
+
+                <label>
+                    Your Name
+                </label>
+
+                <input
+                    type="text"
+                    placeholder="Enter your name"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>
+                    Email Address
+                </label>
+
+                <input
+                    type="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>
+                    Message
+                </label>
+
+                <textarea
+                    placeholder="Write your message..."
+                    rows="5"
+                    required
+                ></textarea>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="send-btn">
+                Send Message
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <div class="footer-container">
+
+        <a href="#home" class="logo">
+            Price<span>Pro</span>
+        </a>
+
+        <p>
+            Simple pricing. Powerful features.
+        </p>
+
+        <div class="footer-links">
+
+            <a href="#home">Home</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#features">Features</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+        © 2026 PricePro. All rights reserved.
+    </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
